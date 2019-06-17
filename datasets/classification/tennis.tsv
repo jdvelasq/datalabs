@@ -1,0 +1,15 @@
+Outlook	Temperature	Humidity	Wind	play
+Sunny	Hot	High	Weak	No
+Sunny	Hot	High	Strong	No
+Sunny	Mild	High	Weak	No
+Sunny	Mild	Normal	Strong	Yes
+Sunny	Cool	Normal	Weak	Yes
+Overcast	Hot	High	Weak	Yes
+Overcast	Hot	Normal	Weak	Yes
+Overcast	Mild	High	Strong	Yes
+Overcast	Cool	Normal	Strong	Yes
+Rain	Mild	High	Weak	Yes
+Rain	Mild	High	Strong	No
+Rain	Mild	Normal	Weak	Yes
+Rain	Cool	Normal	Weak	Yes
+Rain	Cool	Normal	Strong	No
