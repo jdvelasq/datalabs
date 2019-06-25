@@ -1,4 +1,4 @@
-# Reposotory for datasets and Google Colaboratory notebooks
+# Repository for datasets and Google Colaboratory notebooks
 
 
 * mushrooms.csv
