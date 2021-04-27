@@ -1,9 +1,3 @@
-# Repository for datasets and Google Colaboratory notebooks
+# Repository for datasets and grading notebooks
 
 
-* mushrooms.csv
-
-https://www.kaggle.com/uciml/mushroom-classification
-
-
-* 
