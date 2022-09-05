@@ -1,0 +1,174 @@
+---000--------------------------------------------------------------------------------------
+AR Ishaque K, 2012, IEEE TRANS POWER ELECTRON, V27, P3627
+TI An improved particle swarm optimization (PSO)-based MPPT for PV with reduced steady-
+   state oscillation
+AU Ishaque K; Salam Z; Amjad M; Mekhilef S
+TC 672
+SO IEEE Transactions on Power Electronics
+PY 2012
+AB this paper proposes an improved maximum power point tracking (mppt) method for the
+   photovoltaic (pv) system using a modified particle swarm optimization (pso)
+   algorithm.  the main advantage of the method is the reduction of the steady-state
+   oscillation (to practically zero) once the maximum power point (mpp) is located.
+   furthermore, the proposed method has the ability to track the mpp for the extreme
+   environmental condition, e.g., large fluctuations of insolation and partial shading
+   condition.  the algorithm is simple and can be computed very rapidly; thus, its
+   implementation using a low-cost microcontroller is possible.  to evaluate the
+   effectiveness of the proposed method, matlab simulations are carried out under very
+   challenging conditions, namely step changes in irradiance, step changes in load, and
+   partial shading of the pv array.  its performance is compared with the conventional
+   hill climbing (hc) method.  finally, an experimental rig that comprises of a buck-
+   boost converter fed by a custom-designed solar array simulator is set up to emulate
+   the simulation.  the software development is carried out in the dspace 1104
+   environment using a tms320f240 digital signal processor.  the superiority of the
+   proposed method over the hc in terms of tracking speed and steady-state oscillations
+   is highlighted by simulation and experimental results.  2012 ieee.
+DE buck-boost converter; hill-climbing; maximum power point tracking; partial shade;
+   particle swarm optimization; photo-voltaic system
+ID algorithm; buck-boost converter; electric converters; hill-climbing; maximum power
+   point tracking; partial shade; particle swarm optimization; photo-voltaic cells;
+   photo-voltaic system; photovoltaic effects; signal-processing
+---001--------------------------------------------------------------------------------------
+AR Ishaque K, 2013, IEEE TRANS IND ELECTRON, V60, P3195
+TI A deterministic particle swarm optimization maximum power point tracker for
+   photovoltaic system under partial shading condition
+AU Ishaque K; Salam Z
+TC 437
+SO IEEE Transactions on Industrial Electronics
+PY 2013
+AB this paper proposes a deterministic particle swarm optimization to improve the
+   maximum power point tracking (mppt) capability for photovoltaic system under partial
+   shading condition.  the main idea is to remove the random number in the
+   accelerations factor of the conventional pso velocity equation.  additionally, the
+   maximum change in velocity is restricted to a particular value, which is determined
+   based on the critical study of $p$-$v$ characteristics during partial shading.
+   advantages of the method include: 1) consistent solution is achieved despite a small
+   number of particles, 2) only one parameter, i.e., the inertia weight, needs to be
+   tuned, and 3) the mppt structure is much simpler compared to the conventional pso.
+   to evaluate the idea, the algorithm is implemented on a buck-boost converter and
+   compared to the conventional hill climbing (hc) mppt method.  simulation results
+   indicate that the proposed method outperforms the hc method in terms of global peak
+   tracking speed and accuracy under various partial shading conditions.  furthermore,
+   it is tested using the measured data of a tropical cloudy day, which includes rapid
+   movement of the passing clouds and partial shading.  despite the wide fluctuations
+   in array power, the average efficiency for the 10-h test profile reaches 99.5%.
+DE direct control; global peak; maximum power point tracking; partial shade; particle
+   swarm optimization; photo-voltaic system
+ID direct control; global peak; maximum power point tracking; partial shade; particle
+   swarm optimization; photo-voltaic cells; photo-voltaic system
+---002--------------------------------------------------------------------------------------
+AR Ishaque K, 2012, APPL ENERGY, V99, P297
+TI Parameter extraction of solar photovoltaic modules using penalty-based differential
+   evolution
+AU Ishaque K; Salam Z; Mekhilef S; Shamsudin A
+TC 249
+SO Applied Energy
+PY 2012
+AB this paper proposes a penalty based differential evolution (p-de) for extracting the
+   parameters of solar photovoltaic (pv) modules at different environmental conditions.
+   the two diode model of a solar cell is used as the basis for the extraction problem.
+   the analyses carried out using synthetic current-voltage (i-v) data set showed that
+   the proposed p-de outperforms other evolutionary algorithm methods, namely the
+   simulated annealing (sa), genetic algorithm (ga), and particle swarm optimization
+   (pso). p-de consistently converges to the global optimum values very rapidly.  the
+   performances are evaluated using the well known quality test and student t-tests.
+   furthermore, the p-de extraction method is practically validated by six solar
+   modules of different types (multi-crystalline, mono-crystalline, and thin-film). the
+   results were found to be in close agreement with the experimental i-v data set,
+   especially at very low irradiance values.  the latter can be very useful in
+   predicting the performance of the solar system under partial shading conditions.
+   the main application of the proposed work is the possibility of developing a highly
+   accurate simulator for solar pv system designer.  2012 elsevier ltd.
+DE differential evolution algorithm; genetic algorithm; parameter extraction; particle
+   swarm optimization; simulated annealing; solar module
+ID algorithm; concentrated solar; crystalline materials; crystallinity; current-
+   voltage; data set; differential evolution algorithm; environmental conditions;
+   extraction method; fuel cell; genetic algorithm; global optimum; parameter
+   extraction; parameterization; partial shade; particle swarm optimization; photo
+   voltaic (pv); photo-voltaic system; quality test; radiation balance; simulated
+   annealing; solar module; solar photovoltaic modules; solar system; t-tests; two-
+   diode model
+---003--------------------------------------------------------------------------------------
+AR Ishaque K, 2012, APPL ENERGY, V99, P414
+TI A direct control based maximum power point tracking method for photovoltaic system
+   under partial shading conditions using particle swarm optimization algorithm
+AU Ishaque K; Salam Z; Shamsudin A; Amjad M
+TC 172
+SO Applied Energy
+PY 2012
+AB this paper presents maximum power point tracking (mppt) of photovoltaic (pv) system
+   using particle swarm optimization (pso) algorithm.  the key advantage of the
+   proposed technique is the elimination of pi control loops using direct duty cycle
+   control method.  furthermore, since the pso is based on optimized search method, it
+   overcomes the common drawback of the conventional mppt, i.e.  the inability to track
+   the global maximum point (gp) of pv array under partial shading conditions.  the
+   algorithm is employed on a buck-boost converter and tested experimentally using a pv
+   array simulator.  ten irradiance patterns are imposed on the array, the majority of
+   which include various partial shading patterns.  compared to the conventional direct
+   duty cycle method, the proposed method performs excellently under all shading
+   conditions.  finally, the performance of the proposed method is tested using the
+   measured data of a tropical country (malaysia) from 8.00 am to 6.00. pm.  for the
+   10. h (daytime) irradiance and temperature profile, it yields an average mppt
+   efficiency of 99.5%.  2012 elsevier ltd.
+DE direct control; malaysian weather condition; maximum power point tracking; partial
+   shade; particle swarm optimization; photo-voltaic system
+ID algorithm; direct control; irradiance; malaysia; maximum power point tracking;
+   optimization; partial shade; particle size; particle swarm optimization; photo-
+   voltaic cells; photo-voltaic system; temperature profile; tracking; tropical region;
+   weather; weather condition
+---004--------------------------------------------------------------------------------------
+AR Chin VJ, 2016, ENERGY CONVERS MANAGE, V124, P42
+TI An accurate modelling of the two-diode model of PV module using a hybrid solution
+   based on differential evolution
+AU Chin VJ; Salam Z; Ishaque K
+TC 84
+SO Energy Conversion and Management
+PY 2016
+AB this paper proposes an accurate computational technique for the two-diode model of
+   pv module.  unlike previous methods, it does not rely on assumptions that cause the
+   accuracy to be compromised.  the key to this improvement is the implementation of a
+   hybrid solution, i.e.  by incorporating the analytical method with the differential
+   evolution (de) optimization technique.  three parameters, i.e.  ipv, io1, and rp are
+   computed analytically, while the remaining, a1, a2, io2 and rs are optimized using
+   the de.  to validate its accuracy, the proposed method is tested on three pv modules
+   of different technologies: mono-crystalline, poly-crystalline and thin film.
+   furthermore, its performance is evaluated against two popular computational methods
+   for the two-diode model.  the proposed method is found to exhibit superior accuracy
+   for the variation in irradiance and temperature for all module types.  in
+   particular, the improvement in accuracy is evident at low irradiance conditions; the
+   root-mean-square error is one order of magnitude lower than that of the other
+   methods.  in addition, the values of the model parameters are consistent with the
+   physics of pv cell.  it is envisaged that the method can be very useful for pv
+   simulation, in which accuracy of the model is of prime concern.  2016 elsevier ltd
+DE differential evolution algorithm; equivalent circuit; model; photo voltaic (pv);
+   two-diode model
+ID analytic method; computation techniques; crystalline materials; differential
+   evolution algorithm; diode; equivalent circuit; evolutionary algorithm; mean square
+   error; model; model parameters; optimisation techniques; optimization; photo voltaic
+   (pv); photo-voltaic cells; root mean square errors; two-diode model
+---005--------------------------------------------------------------------------------------
+AR Ramli MAM, 2015, ENERGY BUILD, V103, P175
+TI A modified differential evolution based maximum power point tracker for photovoltaic
+   system under partial shading condition
+AU Ramli MAM; Ishaque K; Jawaid F; Al-Turki YA; Salam Z
+TC 50
+SO Energy and Buildings
+PY 2015
+AB this work proposes a modified differential evolution (mde) based maximum power point
+   tracker (mppt) for photovoltaic (pv) system under partial shading condition.  the
+   proposed mde does not involve any random numbers; hence, consistency of mpp tracking
+   always prevails.  besides, it only contains one tuning parameter, i.e., mutation
+   factor, which significantly simplifies the implementation strategy and therefore a
+   low-cost micro-controller can be used for its realization.  despite the simpler mppt
+   structure, for each tested shaded curve, mde always converges toward the global mpp
+   within 12 perturbations.  performance wise, it outperforms another evolutionary
+   algorithm, namely particle swarm optimization (pso), which frequently traps at local
+   mpp in shading conditions.  the proposed mde also works accurately for the measured
+   data profile of a tropical country during 9.00 am to 5.00 pm, where it attains 99.5%
+   average tracking efficiency.  2015 elsevier b.v.  all rights reserved.
+DE differential evolution algorithm; maximum power point tracking; partial shade;
+   particle swarm optimization; photo-voltaic system
+ID differential evolution algorithm; evolutionary algorithm; implementation strategies;
+   maximum power point tracking; modified differential evolution; mutation factor; one
+   tuning parameter; optimization; partial shade; particle swarm optimization; photo-
+   voltaic cells; photo-voltaic system; tropical countries
